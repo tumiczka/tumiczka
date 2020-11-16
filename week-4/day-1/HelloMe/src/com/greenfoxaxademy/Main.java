@@ -32,5 +32,14 @@ public class Main {
         // Kiíratáskor használd fel a favoriteNumber változót
         favoriteNumber=9;
         System.out.println("A kedvenc számom: "+favoriteNumber);
+        // Two Numbers
+        int firstNumber=13;
+        int secondNumber=22;
+        System.out.println(firstNumber+secondNumber);
+        System.out.println(firstNumber-secondNumber);
+        System.out.println(firstNumber*secondNumber);
+        System.out.println(firstNumber/secondNumber);
+        System.out.println(13./secondNumber);
+        System.out.println(firstNumber%secondNumber);
     }
 }
