@@ -17,6 +17,20 @@ public class Main {
         System.out.println("Hello Tünde!");
         System.out.println("Hello Kris!");
         System.out.println("Hello Dávid!");
-        
+        //Introduce myself
+        System.out.println("Tumicz Katalin");
+        System.out.println("40");
+        System.out.println("1.67");
+        /*int f = 12;
+        System.out.println(--f); // Terminálban látható: 11
+        System.out.println(f); // Terminálban látható: 11
+        System.out.println(true & false);
+        System.out.println(true && false);*/
+        int favoriteNumber = 8;
+        // Írd át a fenti számot a kedvenc számoddá
+        // És utána írasd ki efféle képpen: "A kedvenc számom: 8"
+        // Kiíratáskor használd fel a favoriteNumber változót
+        favoriteNumber=9;
+        System.out.println("A kedvenc számom: "+favoriteNumber);
     }
 }
