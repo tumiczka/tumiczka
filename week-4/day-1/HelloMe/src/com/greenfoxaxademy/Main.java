@@ -8,5 +8,10 @@ public class Main {
         /*Több soros
         komment gyakolás
          */
+        //Lipem lopom
+        System.out.println("Lipem, lopom a szőlőt");
+        System.out.println("Elaludt az öreg csősz");
+        System.out.println("Furkós bot a kezében");
+        System.out.println("Vaskalap a fejében");
     }
 }
