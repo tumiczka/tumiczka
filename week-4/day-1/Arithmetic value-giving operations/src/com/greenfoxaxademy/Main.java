@@ -38,7 +38,8 @@ public class Main {
         double heigth = 1.67;
         System.out.println("Magasságom: " + heigth + " m");
         boolean maritalStatus = true;
-        System.out.println("Házas vagyok-e: " + maritalStatus);
+        String status=(maritalStatus==true)?"Házas vagyok":"Nem vagyok házas";
+        System.out.println(status);
 
         //VariableMutation
         int a = 3;
