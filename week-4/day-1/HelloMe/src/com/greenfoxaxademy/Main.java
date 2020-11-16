@@ -13,5 +13,10 @@ public class Main {
         System.out.println("Elaludt az öreg csősz");
         System.out.println("Furkós bot a kezében");
         System.out.println("Vaskalap a fejében");
+        //Hello Others!
+        System.out.println("Hello Tünde!");
+        System.out.println("Hello Kris!");
+        System.out.println("Hello Dávid!");
+        
     }
 }
