@@ -43,5 +43,6 @@ public class Arrays {
         for (i = 0; i <= 19; i++) {
             System.out.println(letter[i] + " ");
         }
+
     }
 }

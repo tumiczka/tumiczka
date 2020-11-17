@@ -82,7 +82,7 @@ public class Main {
         for (int i = 0; i < arrayExample.length; i++) {
             System.out.println(arrayExample[i] + " ");
         }
-        
+
     }
 }
 
