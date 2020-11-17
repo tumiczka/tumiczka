@@ -16,8 +16,12 @@ public class Main {
         String examinationResult=examination? "true" : "false";
         System.out.println(examinationResult);
 
-        //int j = 1521;
+        int j = 1521;
         // Írasd ki, hogy j osztható-e 3-mal vagy 5-tel (boolean)
+        boolean jDivisibility=j%3==0 || j%5==0;
+        String jDivisibilityResult=jDivisibility ? "true" : "false";
+        System.out.println(jDivisibilityResult);
         }
     }
+
 
