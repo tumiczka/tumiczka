@@ -21,6 +21,12 @@ public class Main {
         boolean jDivisibility=j%3==0 || j%5==0;
         String jDivisibilityResult=jDivisibility ? "true" : "false";
         System.out.println(jDivisibilityResult);
+
+        if(j%3==0 || j%5==0){
+            System.out.println(true);
+        }else{
+            System.out.println(false);
+        }
         }
     }
 
