@@ -72,6 +72,17 @@ public class Main {
             }
         }
         System.out.println();
+        //példa tömb kiíratása
+        int[] arrayExample = {1, 2, 3, 6};
+
+        // Írasd ki a tömb második elemét
+        System.out.println("A tömb második eleme: " + arrayExample[1]);
+
+        // Írasd ki a tömb minden elemét
+        for (int i = 0; i < arrayExample.length; i++) {
+            System.out.println(arrayExample[i] + " ");
+        }
+        
     }
 }
 
