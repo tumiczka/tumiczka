@@ -1,5 +1,7 @@
 package com.greenfoxaxademy;
 
+import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -48,7 +50,30 @@ public class Main {
         for (char i = 0; i <= 19; i++) {
             System.out.print(letter[i] + " ");
         }
+        System.out.println("   ");
+        //Írjál programot, amely az 5x5-ös egységmátrixot hozza létre!
+        int[][] matrix = new int[5][5];
+        for (int i = 0; i <= 4; i++) {
+            for (int j = 0; j <= 4; j++) {
+                if (i == j) {
+                    matrix[i][j] = 1;
+                } else {
+                    matrix[i][j] = 0;
+                }
+            }
+
+
+        }
+        System.out.println(matrix);
+        for (int i = 0; i <= 4; i++) {
+            for (int j = 0; j <= 4; j++) {
+                System.out.print(matrix[i][j]+" ");
+
+            }
+        }
+        System.out.println();
     }
 }
+
 
 
