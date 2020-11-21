@@ -12,9 +12,9 @@ public class Censor {
         StringBuilder stringBuilder=new StringBuilder();
         for (String word:words) {
             if(word.equals(originalWord)){
-                stringBuilder.append(newWord).append(".");
+                stringBuilder.append(newWord).append(" ");
             }else{
-                stringBuilder.append(word).append(".");
+                stringBuilder.append(word).append(" ");
             }
             
         }
