@@ -5,11 +5,19 @@ public class Censor {
         String text="A kedvenc gyümülcsöm a(z) alma";
         String originalWord="alma";
         String newWord="banán";
-        //System.out.println(text.indexOf("alma"));
-        System.out.println(text.substring(0,26).concat(newWord));
-
-
-
-
+        System.out.println(censor(text, originalWord, newWord));
+    }
+    public static String censor(String text, String originalWord, String newWord){
+        String[] words=text.split(" ");
+        StringBuilder stringBuilder=new StringBuilder();
+        for (String word:words) {
+            if(word.equals(originalWord)){
+                stringBuilder.append(newWord).append(".");
+            }else{
+                stringBuilder.append(word).append(".");
+            }
+            
+        }
+        return stringBuilder.toString().trim();
     }
 }
